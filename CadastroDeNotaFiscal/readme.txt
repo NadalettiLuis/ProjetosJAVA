@@ -6,7 +6,7 @@ estruturais necessárias para gerenciar a emissão de notas fiscais e seus respe
 O sistema foi idealizado para resolver problemas de pequenos comércios, permitindo salvar informações 
 de vendas de forma estruturada para possibilitar futuras impressões de cupons ou notas fiscais.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - **Criação Automatizada:** Geração automática do banco de dados e tabelas ao iniciar a aplicação.
 - **Interface Visual Dinâmica:** Exibição dos produtos em uma tabela Java (`JTable`) em tempo real antes 
@@ -15,21 +15,21 @@ da confirmação do cadastro no banco de dados.
 Java (substituindo o padrão `AUTO_INCREMENT` do SQL para fins de estudo de lógica).
 - **Gerenciamento de Vendas:** Vínculo relacional direto entre a nota fiscal gerada e os itens que a compõem.
 
-## 📊 Modelagem do Banco de Dados (MySQL)
+## Modelagem do Banco de Dados (MySQL)
 
 O banco de dados é composto por duas tabelas principais fortemente relacionadas:
 
 1. **`NOTAS`**: Armazena os dados gerais da venda.
 2. **`ITEMNOTA`**: Armazena as mercadorias que pertencem a cada nota fiscal.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Linguagem:** Java (Versão [Ex: 17 / 21])
 - **Banco de Dados:** MySQL Server
 - **Interface Gráfica:** Java Swing / AWT (componentes de tabela)
 - **Driver de Conexão:** JDBC (MySQL Connector/J)
 
-## 🎯 Objetivos de Estudo
+## Objetivos de Estudo
 
 Este projeto foi desenvolvido com o propósito pedagógico de consolidar conceitos importantes de desenvolvimento de software:
 - Integração prática entre Java e Banco de Dados Relacional via JDBC.
@@ -37,7 +37,7 @@ Este projeto foi desenvolvido com o propósito pedagógico de consolidar conceit
 - Manipulação de arrays, coleções (`List`) e estruturas de dados em memória.
 - Sincronização de dados entre arrays internos e componentes visuais de tabela.
 
-## 🔧 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 Você precisará ter instalado em sua máquina:
